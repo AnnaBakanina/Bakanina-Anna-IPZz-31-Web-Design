@@ -56,6 +56,11 @@ body {
     flex-shrink: 0;
 }
 
+.logo-footer {
+    padding-left: 105px;
+    padding-top: 183px;
+}
+
 /* Main styles */
 
 .overview {
@@ -195,6 +200,12 @@ body {
     font-size: 58px;
     font-weight: 600;
     width: 704px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-header {
