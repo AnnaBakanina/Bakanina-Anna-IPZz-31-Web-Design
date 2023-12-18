@@ -33,13 +33,17 @@ p {
 }
 
 .header {
-    /*padding: 6px 500px 6px 0px;*/
+    display: inline-flex;
+    padding: 6px 500px 6px 0px;
     align-items: center;
     gap: 331px;
+    margin: 45px 105px 133px 105px;
 }
 
 .header-navigation {
+    display: flex;
     list-style: none;
+    gap: 60px;
 }
 
 .link {
