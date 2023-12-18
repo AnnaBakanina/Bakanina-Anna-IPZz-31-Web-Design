@@ -20,13 +20,13 @@
         <nav class="container">
           <ul class="header-navigation">
             <li>
-              <a class="link navigation-link" href="#">Home</a>
+              <a class="link navigation-link" href="index.html">Home</a>
             </li>
             <li>
-              <a class="link navigation-link" href="#">Services</a>
+              <a class="link navigation-link" href="#services">Services</a>
             </li>
-            <li><a class="link navigation-link" href="#">Contact</a></li>
-            <li><a class="link navigation-link" href="#">Support</a></li>
+            <li><a class="link navigation-link" href="#contact">Contact</a></li>
+            <li><a class="link navigation-link" href="#support">Support</a></li>
           </ul>
         </nav>
       </div>
@@ -35,15 +35,17 @@
       <!-- Overview -->
       <section class="section container">
         <div class="overview">
-            <div>
-                <h1 class="overview-header">Interior Design</h1>
-                <p class="overview-description">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
-                    modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication
-                </p>
-                <img class="overview-image" src="images/overview-image1.png"/>
+            <div class="overview-top">
+                <div>
+                    <h1 class="overview-header">Interior Design</h1>
+                    <p class="overview-description">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
+                    modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+                </div>
+                <img class="overview-image" src="images/overview-image1.png" width="" height=""/>
             </div>
-            <div>
-                <button class="overview-button" type="button">Start Project</button>
+            <div class="overview-bottom">
+                <div>
+                    <button class="overview-button" type="button">Start Project</button>
                 <ul class="statistic-list">
                     <li>
                         <h2 class="number">400+</h2>
@@ -58,72 +60,99 @@
                         <p class="item-name">Unique Styles</p>
                     </li>
                 </ul>
+                </div>
                 <img src="images/overview-image2.png"/>
             </div>
         </div>
       </section>
       <!-- Our Services -->
-      <section class="section container">
+      <section id="services" class="section container">
         <div class="our-services">
-            <img src="images/svg/line1.svg"/>
-            <h1 class="our-service-header">Our Services</h1>
-            <ul class="our-services-list">
-                <li class="our-services-list-item">
-                    <img src="images/svg/lighting-design-icon.svg"/>
-                    <h2 class="our-services-list-item-title">Lighting Design</h2>
-                    <p class="our-services-list-item-text">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
-                </li>
-                <li>
-                    <img src="images/svg/interior-design-icon.svg"/>
-                    <h2 class="our-services-list-item-title">Interior Design</h2>
-                    <p class="our-services-list-item-text">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
-                </li>
-                <li>
-                    <img src="images/svg/outdoor-design-icon.svg"/>
-                    <h2 class="our-services-list-item-title">Outdoor Design</h2>
-                    <p class="our-services-list-item-text">Celebrate the changing seasons with our seasonal outdoor decor services</p>
-                </li>
-            </ul>
+            <div class="our-services-top">
+                <img src="images/svg/line1.svg"/>
+                <h1 class="our-service-header">Our Services</h1>
+            </div>
+            <div class="our-services-bottom">
+                <ul class="our-services-list">
+                    <li class="our-services-list-item">
+                        <img class="our-services-list-image" src="images/svg/lighting-design-icon.svg"/>
+                        <div>
+                            <h2 class="our-services-list-item-title">Lighting Design</h2>
+                            <p class="our-services-list-item-text">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+                        </div>
+                    </li>
+                    <li class="our-services-list-item">
+                        <img src="images/svg/interior-design-icon.svg"/>
+                        <div>
+                            <h2 class="our-services-list-item-title">Interior Design</h2>
+                            <p class="our-services-list-item-text">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+                        </div>
+                    </li>
+                    <li class="our-services-list-item">
+                        <img src="images/svg/outdoor-design-icon.svg"/>
+                        <div>
+                            <h2 class="our-services-list-item-title">Outdoor Design</h2>
+                            <p class="our-services-list-item-text">Celebrate the changing seasons with our seasonal outdoor decor services</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
       </section>
       <!-- Our Approach -->
       <section class="section container">
-        <div>
+        <div class="our-approach">
             <img src="images/our-approach-image.png"/>
-            <h1 class="our-approach-header">Designing Your Dream With Brilliance</h1>
-            <p class="our-approach-description">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
-            <button class="our-approach-button" type="button">Learn More</button>
+            <div class="our-approach-bottom">
+                <h1 class="our-approach-header">Designing Your Dream With Brilliance</h1>
+                <p class="our-approach-description">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                <button class="our-approach-button" type="button">Learn More</button>
+            </div>
         </div>
       </section>
       <!-- Proccess Overview -->
       <section class="section container">
-        <div>
-            <h1 class="proccess-overview-title">Designing Your Dream in Three Simple Steps</h1>
+        <div class="proccess-overview">
+            <div class="proccess-overview-right">
+                <h1 class="proccess-overview-title">Designing Your Dream in Three Simple Steps</h1>
+                <ul class="proccess-overview-list">
+                    <li class="proccess-overview-list-item">
+                        <h2 class="proccess-overview-list-item-title">Start Project</h2>
+                        <p class="proccess-overview-list-item-text">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+                    </li>
+                    <li class="proccess-overview-list-item">
+                        <h2 class="proccess-overview-list-item-title">Craft</h2>
+                        <p class="proccess-overview-list-item-text">Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space</p>
+                    </li>
+                    <li class="proccess-overview-list-item">
+                        <h2 class="proccess-overview-list-item-title">Execute</h2>
+                        <p class="proccess-overview-list-item-text">Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space</p>
+                    </li>
+                </ul>
+            </div>
             <img src="images/proccess-overview-image.png"/>
-            <ul class="proccess-overview-list">
-                <li class="proccess-overview-list-item">
-                    <h2 class="proccess-overview-list-item-title">Start Project</h2>
-                    <p class="proccess-overview-list-item-text">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
-                </li>
-                <li class="proccess-overview-list-item">
-                    <h2 class="proccess-overview-list-item-title">Craft</h2>
-                    <p class="proccess-overview-list-item-text">Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space</p>
-                </li>
-                <li class="proccess-overview-list-item">
-                    <h2 class="proccess-overview-list-item-title">Execute</h2>
-                    <p class="proccess-overview-list-item-text">Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space</p>
-                </li>
-            </ul>
         </div>
       </section>
       <!-- Reviews -->
-      <section class="section container">
-        <div>
+      <section class="section container review">
+        <div class="review-top">
             <h1 class="review-header">What Our Customers Say About Us</h1>
+        </div>
+        <div class="review-slider">
+            <div class="review-item">
+                <p><span>"</span> Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations.  Thank you for making my home beautiful!</p>
+                <p>Sophie Carter</p>
+                <p>New York, USA</p>
+            </div>
+            <div class="review-item">
+                <p><span>"</span> Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!</p>
+                <p>James Bennett</p>
+                <p>Toronto, Canada</p>
+            </div>
         </div>
       </section>
       <!-- Contact -->
-      <section class="section container">
+      <section id="contact" class="section container">
         <div class="contact">
             <h1 class="contact-header">Subscribe to Our Newsletter for Design Insights</h1>
             <p class="contact-text">Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
@@ -136,7 +165,7 @@
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer container">
+    <footer id="support" class="footer container">
       <div class="footer-column">
         <img class="logo-footer" src="images/svg/logo2.svg" href="index.html"/>
         <p class="logo-footer-text">VivaDecor your premier destination for luxury and modern interior design</p>
