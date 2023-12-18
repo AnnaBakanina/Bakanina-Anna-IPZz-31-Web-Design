@@ -1,0 +1,233 @@
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #545454;
+    --header-color: #1F1F1F;
+    --tooltip-color: #8C8C8C;
+    --footer-menu-items-color: #D1D1D1;
+}
+
+.section {
+    padding-right: 105px;
+    padding-left: 105px;
+}
+
+body {
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Header styles */
+
+.logo {
+    width: 177px;
+    height: 48px;
+}
+
+.header {
+    display: inline-flex;
+    padding: 6px 500px 6px 0px;
+    align-items: center;
+    gap: 331px;
+}
+
+.header-navigation {
+    list-style: none;
+}
+
+.link {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--header-color);
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: var(--header-color);
+    color: var(--background-color);
+    width: 1728px;
+    height: 642px;
+    flex-shrink: 0;
+}
+
+/* Main styles */
+
+.overview {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-header {
+    font-size: 133px;
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+.overview-description {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 175.48%;
+    width: 759px;
+}
+
+.overview-image {
+    width: 610px;
+    height: 610px;
+    flex-shrink: 0;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.overview-button {
+    width: 302px;
+    height: 86px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--header-color);
+    color: var(--background-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.statistic-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 87px;
+}
+
+.number {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.item-name {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.our-services {
+    display: flex;
+}
+
+.our-service-header {
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.our-services-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.our-services-list-item-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.our-services-list-item-text {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 165.19%;
+    color: var(--text-color);
+    width: 359px;
+}
+
+.our-approach-header {
+    font-size: 58px;
+    font-weight: 600;
+    width: 704px;
+}
+
+.our-approach-description {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 165.2%;
+    color: var(--text-color);
+    width: 722px;
+}
+
+.our-approach-button {
+    width: 275px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--header-color);
+    color: var(--background-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.proccess-overview-title {
+    font-size: 58px;
+    font-weight: 600;
+    width: 704px;
+}
+
+.proccess-overview-list {
+    list-style: none;
+}
+
+.proccess-overview-list-item-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.proccess-overview-list-item-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 165.2%;
+    color: var(--text-color);
+    width: 569px;
+}
+
+.review-header {
+    font-size: 58px;
+    font-weight: 600;
+    width: 704px;
+}
+
+.contact-header {
+    font-size: 58px;
+    font-weight: 600;
+    width: 849px;
+}
+
+.contact-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 165.19%;
+    color: var(--text-color);
+}
+
+.email-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
